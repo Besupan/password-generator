@@ -38,8 +38,13 @@ header {
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1000px;
   padding: 30px 40px;
+}
+
+.card-header h2 p {
+  display: flex;
+  justify-content: center;
 }
 
 .card-header::after {
@@ -117,6 +122,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
 
 @media (max-width: 690px) {
   .btn {
